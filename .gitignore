@@ -1,0 +1,4 @@
+*.o
+*.mex*
+compiled
+octave-workspace
