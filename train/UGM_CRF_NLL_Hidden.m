@@ -153,3 +153,5 @@ function [global_NLL,global_g] = UGM_CRF_NLL_Hidden(w,Xnode,Xedge,Y,nodeMap,edge
     global_NLL = global_NLL + NLL;
     global_g = global_g + g;
   end
+  global_NLL = global_NLL / nInstances;
+  global_g = global_g / nInstances;
